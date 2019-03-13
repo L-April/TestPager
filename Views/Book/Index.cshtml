@@ -10,7 +10,7 @@
     @foreach (var item in Model.books)
     {
         <li class="list-group-item">@item.Name</li>
-    }
+    } 
 </ul>
 
 @Html.Pagination(Model.pageModel, (info) =>
